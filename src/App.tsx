@@ -15,7 +15,7 @@ function App() {
     <>
       <div className='container'>
         <h1 className='app-title'>
-          Cotizador de <span>Criptomoneda$</span>
+          Cryptocurrency Prices
         </h1>
 
         <div className='content'>
