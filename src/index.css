@@ -2,10 +2,10 @@
   --white: #fff;
   --primary: #61ECBC;
   --black: #182339;
-  --arrow-bg: rgba(69, 131, 189, 0.671);
+  --arrow-bg: rgba(6, 170, 148, 0.418);
   --arrow-icon: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Caret_down_font_awesome_whitevariation.svg);
   --option-bg: white;
-  --select-bg: rgba(255, 255, 255, 0.2);
+  --select-bg: rgba(23, 121, 104, 0.151);
 }
 * {
   box-sizing: border-box;
@@ -83,7 +83,7 @@ body {
     linear-gradient(to left, var(--arrow-bg) 3em, var(--select-bg) 3em);
   color: rgb(5, 3, 24);
   border-radius: 0.25em;
-  box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
   cursor: pointer;
   /* Remove IE arrow */
   &::-ms-expand {
@@ -100,8 +100,8 @@ body {
   }
 }
 .form [type="submit"] {
-  background-color: var(--primary);
-  color: var(--black);
+  background-color: #2e948b;
+  color: #ffffff;
   border: none;
   padding: 1rem;
   font-weight: 900;
@@ -113,11 +113,11 @@ body {
   width: 50%;
   margin: 0 auto ;
   margin-top: 10px;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 .form [type="submit"]:hover {
-  background-color: #0cb387;
+  background-color: #02635b;
 }
 
 .result-wrapper{
