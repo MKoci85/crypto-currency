@@ -10,7 +10,7 @@ export default function CryptoPriceDisplay() {
     
   return (
     <div className="result-wrapper">
-        { loading ? (<Spinner />) : hasResult && (
+        { loading ? <Spinner /> : hasResult && (
             <>
                 <h2>Cotización</h2>
                 <div className="result">
